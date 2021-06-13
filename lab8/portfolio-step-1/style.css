@@ -229,72 +229,91 @@ img {
     position: relative;
     left: 280px;
   }
-}
-
-@media screen and (max-width: 768px) {
   .page-header {
     margin:0 0 85px;
   }
-}
-
-@media screen and (max-width: 768px) {
   .hero-image {
     margin-bottom: 200px;
 }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
+  .button {
+    position: relative;
+    left: 230px;
+    }
+  .hero-image {
+    margin-bottom: 160px;
+    }
+    .page-header {
+     margin:0 0 32px;
+    }
+    .heading {
+      font-size: 60px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
   .heading {
-      font-size: 30px;
-      margin:0 0 -12px
+    font-size: 30px;
+    margin:0 0 -12px
   }
   .subheading{
     font-size: 26px;
     margin:0 0 0px
   }
+  .hero-image p {
+    font-size: 22px;
+    line-height: 0px;
+  }
+  .button {
+   position: relative;
+   left: 140px;
+   }
+
+   .page-header {
+    margin:28px 0 -32px;
+   }
+
+   .hero-image {
+    margin-bottom: 150px;
+   }
+
+   .intro h3, .portfolio h3{
+    font-size: 25px;
+   }
+   .page-footer {
+    padding:0px 0;
+   }
+
+   .portfolio {
+    margin:0 0 65px;
+  }
+
 }
 
-@media screen and (max-width: 320px) {
-  .hero-image p {
-      font-size: 22px;
-      line-height: 0px;
-  }
-}
 
 @media screen and (max-width: 320px) {
   .button {
     position: relative;
-    left: 50px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page-header {
-    margin:0 0 -32px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+    left: 60px;
+    }
   .hero-image {
     margin-bottom: 85px;
-}
-}
-
-@media screen and (max-width: 320px) {
-  .intro h3, .portfolio h3{
-    font-size: 25px;
-}
+    }
+    .page-header {
+     margin:0 0 -32px;
+    }
 }
 
-@media screen and (max-width: 320px) {
-  .page-footer {
-    padding:0px 0;
-  }
-}
 
-@media screen and (max-width: 320px) {
-  .portfolio {
-    margin:0 0 65px;
-  }
-}
+
+
+
+
+
+
+
+
 
