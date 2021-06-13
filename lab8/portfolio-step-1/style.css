@@ -183,7 +183,8 @@ img {
 
 .button {
   position: relative;
-  left:375px;
+  left: 50%;
+  transform: translate(-50%, 0);
   padding: 6px 20px;
   display: inline-block;
   vertical-align: baseline;
@@ -225,10 +226,6 @@ img {
 
 
 @media screen and (max-width: 768px) {
-  .button {
-    position: relative;
-    left: 280px;
-  }
   .page-header {
     margin:0 0 85px;
   }
@@ -238,10 +235,6 @@ img {
 }
 
 @media screen and (max-width: 640px) {
-  .button {
-    position: relative;
-    left: 230px;
-    }
   .hero-image {
     margin-bottom: 160px;
     }
@@ -267,11 +260,6 @@ img {
     font-size: 22px;
     line-height: 0px;
   }
-  .button {
-   position: relative;
-   left: 140px;
-   }
-
    .page-header {
     margin:28px 0 -32px;
    }
@@ -295,10 +283,6 @@ img {
 
 
 @media screen and (max-width: 320px) {
-  .button {
-    position: relative;
-    left: 60px;
-    }
   .hero-image {
     margin-bottom: 85px;
     }
