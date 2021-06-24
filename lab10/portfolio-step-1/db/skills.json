@@ -1,0 +1,27 @@
+[
+  {
+    "css_class": "skill-html",
+    "name": "HTML",
+    "level": 50
+  },
+  {
+    "css_class": "skill-css",
+    "name": "CSS",
+    "level": 45
+  },
+  {
+    "css_class": "skill-js",
+    "name": "JS",
+    "level": 40
+  },
+  {
+    "css_class": "skill-java",
+    "name": "Java",
+    "level": 35
+  },
+  {
+    "css_class": "skill-php",
+    "name": "PHP",
+    "level": 30
+  }
+]
